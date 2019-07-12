@@ -1,3 +1,1 @@
-module.exports = {
-  base: "/vuepress"
-};
+module.exports = {};
