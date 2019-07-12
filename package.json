@@ -1,9 +1,15 @@
 {
   "scripts": {
     "vue:docs:dev": "vuepress dev docs",
-    "vue:docs:build": "vuepress build docs"
+    "vue:docs:build": "vuepress build docs",
+    "docsify:docs:dev": "docsify serve docsify-docs"
   },
   "devDependencies": {
     "vuepress": "^1.0.2"
+  },
+  "dependencies": {
+    "docsify-cli": "^4.3.0",
+    "i": "^0.3.6",
+    "npm": "^6.10.1"
   }
 }
